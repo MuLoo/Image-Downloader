@@ -73,8 +73,8 @@ def resolve_dependencies(driver=str):
     if "chrome" in driver:
         print("Checking Google Chrome and chromedriver ...")
         # if you have installed chronmium/chrome and chromedriver of the same version and still get an error, you can try commenting out the following three lines.
-        driver_path = chromedriver_autoinstaller.install()
-        if not driver_path:
-            return False
+        # driver_path = chromedriver_autoinstaller.install()
+        # if not driver_path:
+        #     return False
         print("OK.")
     return True
